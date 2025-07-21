@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Addis Garage</title>
+        <style>
+    body {
+      background-image: url('blur3.jpg');
+      background-size: cover;
+      overflow: hidden;
+      min-height: 100vh;   
+      background-position: center;  /* Center the image */
+     background-repeat: no-repeat; 
+    }
+    h1{
+        
+        font-size: 75px;
+        font-family: 'Times New Roman', Times, serif;
+        color: antiquewhite;
+        position: relative;
+        top: 60px;
+        text-align: center;
+    }
+    span{
+        
+        
+        position: relative;
+        top: 50px;
+        left: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    div{
+        width: 400px;
+        height:400px;
+        position: absolute;
+        background-color: white;
+        top: 60%;
+        
+       margin: 0;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       border: 2px solid #333;
+       border-radius: 10px; 
+       
+      
+    }
+    input[type="password"],input[type="text"]{
+         width: 300px;       
+         height: 35px;       
+         padding: 4px 6px; 
+         font-size: 14px;   
+         border: 1px solid #d1d1d1;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+    }
+    button{
+        position: fixed;
+        left: 37%;
+        width:100px;
+        height:50px;
+        background-color: red;
+        font-size: 20px;
+    }
+  </style>
+    </head>
+    <body>
+        <form method="post">
+        <h1>Login</h1> 
+        <div >
+        <span>
+           USERNAME<br> <input type="text" required><br><br><br>
+           PASSWORD<br><input type="password" required><br><br><br>
+           <button type="submit">LOGIN</button>
+        </span>
+        </div>
+        </form>
+    </body>
+</html>
